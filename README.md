@@ -17,6 +17,8 @@ Add the `JailbreakDetector` folder to your project.
 ## Usage
 Import JailbreakDetector to your file and call `Security.isJailbroken()` method anywhere within your application loading configuration. JalibreakDetector exits the application if the method returns true.
 
+Note: Console when running the application will output the following `-canOpenURL: failed for URL: "cydia://package/com.example.package" - error: "This app is not allowed to query for scheme cydia"`.
+
 
 ## License
 Jailbreak Detector is protected under the [MIT license](https://github.com/samsoffes/ssziparchive/raw/master/LICENSE).
